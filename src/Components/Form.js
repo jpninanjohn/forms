@@ -15,7 +15,7 @@ class Form extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleClick(event) {
+    handleClick() {
         if (!this.state.isClicked) {
             this.setState({
                 value: '',
